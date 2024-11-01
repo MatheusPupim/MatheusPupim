@@ -33,12 +33,7 @@ Olá! Me chamo Matheus Barbosa Pupim, sou desenvolvedor back-end com experiênci
 ---
 
 ## 🛠️ Habilidades e Tecnologias
-  <img src="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/SQL-007396?style=flat-square&logo=sqlite&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=dotnet&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /> 
-  <img src="https://img.shields.io/badge/Firebird-EE2C2C?style=flat-square&logo=firebird&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white" />
+<img src="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" /><img src="https://img.shields.io/badge/-SQL-003B57?style=flat-square&logo=sqlite&logoColor=white" /><img src="https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" /><img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /><img src="https://img.shields.io/badge/-Firebird-EE2C2C?style=flat-square&logo=firebird&logoColor=white" /><img src="https://img.shields.io/badge/-Visual%20Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white" />
 
 ---
 
