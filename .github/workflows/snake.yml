@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Executa todo dia à meia-noite
+    - cron: "0 0 * * *" # todo dia à meia-noite (UTC)
   workflow_dispatch:
   push:
     branches:
@@ -11,21 +11,27 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
-      - uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+
+      - name: Gerar animação da grade de contribuições
+        uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: MatheusPupim
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=blue&color_dots=green,red&bg_color=transparent
             dist/github-contribution-grid-snake-dark.svg?color_snake=blue&color_dots=green,red&bg_color=transparent
-            
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
