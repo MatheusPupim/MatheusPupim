@@ -29,7 +29,6 @@ Na **SistemasBR**, atuo no desenvolvimento do **Sigecom**, plataforma de gestão
 - 🔧 **Stack principal:** C#, .NET, Firebird, SQL Server, Firebase
 - 🤖 **Desenvolvimento assistido por IA:** uso diário de Claude Code para revisão, refatoração e automação de fluxos de trabalho
 - 🎯 **Interesses:** arquitetura de APIs, performance em banco de dados e integrações de pagamento
-- 📍 Brasil · aberto a conversas sobre projetos e oportunidades
 
 ---
 
