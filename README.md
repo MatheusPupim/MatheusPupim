@@ -10,8 +10,8 @@
   <a href="https://www.linkedin.com/in/matheus-pupim1">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:matheus@sistemasbr.net">
-    <img src="https://img.shields.io/badge/E--mail-24292F?style=for-the-badge&logoColor=white" alt="E-mail" />
+  <a href="mailto:matheusdevcj@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
   </a>
   <a href="https://github.com/MatheusPupim?tab=repositories">
     <img src="https://img.shields.io/badge/Repositórios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios" />
@@ -24,11 +24,12 @@
 
 Desenvolvedor back-end com foco em **C# / .NET**, modelagem e otimização de bancos **SQL** e integrações com serviços externos.
 
-Na **SistemasBR**, atuo no desenvolvimento do **Sigecom** — plataforma de gestão comercial que atende empresas com automação de processos, integrações de pagamento e relatórios operacionais. Meu trabalho concentra-se na camada de serviço: regras de negócio, consultas performáticas em Firebird/SQL Server e APIs consumidas pelo front.
+Na **SistemasBR**, atuo no desenvolvimento do **Sigecom** — ERP de gestão comercial que atende empresas com automação de processos, integrações de pagamento e relatórios operacionais. Meu trabalho concentra-se na camada de serviço: regras de negócio, consultas performáticas em Firebird/SQL Server e integrações de meios de pagamento (Pix e middlewares bancários).
 
 - 🔧 **Stack principal:** C#, .NET, Firebird, SQL Server, Firebase
+- 🤖 **Desenvolvimento assistido por IA:** uso diário de Claude Code para revisão, refatoração e automação de fluxos de trabalho
 - 🎯 **Interesses:** arquitetura de APIs, performance em banco de dados e integrações de pagamento
-- 📍 Brasil · disponível para conversar sobre projetos e oportunidades
+- 📍 Brasil · aberto a conversas sobre projetos e oportunidades
 
 ---
 
@@ -51,6 +52,16 @@ Na **SistemasBR**, atuo no desenvolvimento do **Sigecom** — plataforma de gest
   <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
   <img src="https://img.shields.io/badge/Firebird-EE2C2C?style=flat-square&logo=firebird&logoColor=white" alt="Firebird" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+**IA & Automação**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic" />
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 **Ferramentas**
@@ -59,21 +70,8 @@ Na **SistemasBR**, atuo no desenvolvimento do **Sigecom** — plataforma de gest
   <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" alt="Visual Studio" />
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
-
----
-
-## Projetos em destaque
-
-| Projeto | Descrição | Stack |
-| :--- | :--- | :--- |
-| **[api-validador-documentos](https://github.com/MatheusPupim/api-validador-documentos)** | API comercial para validação de CPF/CNPJ | `Python` |
-| **[api-validador-site](https://github.com/MatheusPupim/api-validador-site)** | Site de apresentação e documentação da API de validação | `HTML` `CSS` |
-| **[portifolio-site](https://github.com/MatheusPupim/portifolio-site)** | Portfólio pessoal com meus trabalhos e trajetória | `HTML` `CSS` |
-| **[Sistemasbr_Projeto](https://github.com/MatheusPupim/Sistemasbr_Projeto)** | Projeto em C# desenvolvido no contexto da SistemasBR | `C#` |
-
-> Meus repositórios de estudo (`Curso_*`, `SQL_Server_Projetos`, `Logica-de-programacao`) documentam a base que construí em lógica, banco de dados e desenvolvimento web.
 
 ---
 
@@ -81,9 +79,9 @@ Na **SistemasBR**, atuo no desenvolvimento do **Sigecom** — plataforma de gest
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake.svg" />
-    <img alt="Animação da grade de contribuições do GitHub" src="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/main/profile-3d-contrib/profile-night-view.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/main/profile-3d-contrib/profile-south-season-animate.svg" />
+    <img alt="Calendário de contribuições em 3D" src="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/main/profile-3d-contrib/profile-south-season-animate.svg" />
   </picture>
 </p>
 
