@@ -39,7 +39,12 @@ TEMAS = {
 
 
 def normalizar_paleta(svg: str, t: dict) -> str:
-    """Reescreve o bloco :root com a paleta completa dos cinco níveis."""
+    """Garante a paleta completa dos cinco níveis.
+
+    O snk só emite o bloco `:root` quando recebe cores via query string.
+    Sem elas o bloco não existe, então aqui ele é inserido no início do
+    `<style>` — de onde as variáveis valem para todas as regras seguintes.
+    """
     d = t["dots"]
     novo = (
         ":root{"
@@ -50,9 +55,13 @@ def normalizar_paleta(svg: str, t: dict) -> str:
         "}"
     )
     svg, n = re.subn(r":root\{[^}]*\}", novo, svg, count=1)
-    if n != 1:
-        sys.exit("erro: bloco :root não encontrado — o formato do snk mudou?")
-    return svg
+    if n == 1:
+        return svg
+
+    if "<style>" not in svg:
+        sys.exit("erro: o SVG de entrada não tem <style> — formato inesperado.")
+    print("  (sem bloco :root na origem — inserindo a paleta)")
+    return svg.replace("<style>", "<style>" + novo, 1)
 
 
 def montar_palco(svg: str, t: dict) -> str:

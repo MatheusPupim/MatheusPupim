@@ -78,11 +78,8 @@ Na **SistemasBR**, atuo no desenvolvimento do **Sigecom**, plataforma de gestão
 ## Atividade
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake.svg" />
-    <img alt="Animação da grade de contribuições do GitHub" src="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img alt="Animação da grade de contribuições do GitHub"
+       src="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 <p align="center">
