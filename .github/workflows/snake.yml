@@ -1,12 +1,10 @@
 name: Generate Snake Animation
 
+# Aposentado em favor do gráfico 3D (profile-3d.yml), que rende melhor
+# quando o calendário está preenchido. Mantido como acionamento manual:
+# basta rodar pela aba Actions para regenerar a animação da cobrinha.
 on:
-  schedule:
-    - cron: "0 0 * * *" # todo dia à meia-noite (UTC)
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
