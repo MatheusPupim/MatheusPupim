@@ -30,21 +30,24 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake-bruto.svg
 
+      # A action do snk roda em container como root e deixa dist/ sem
+      # permissão de escrita para o usuário do runner. Por isso lemos de
+      # dist/ e gravamos num diretório nosso.
       - name: Aplicar acabamento visual (paleta + palco)
         run: |
+          mkdir -p saida
           python3 scripts/embelezar-snake.py \
             dist/snake-bruto.svg \
-            dist/github-contribution-grid-snake.svg --tema light
+            saida/github-contribution-grid-snake.svg --tema light
           python3 scripts/embelezar-snake.py \
             dist/snake-bruto.svg \
-            dist/github-contribution-grid-snake-dark.svg --tema dark
-          rm dist/snake-bruto.svg
-          ls -la dist/
+            saida/github-contribution-grid-snake-dark.svg --tema dark
+          ls -la saida/
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: saida
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
