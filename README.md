@@ -24,7 +24,7 @@
 
 Desenvolvedor back-end com foco em **C# / .NET**, modelagem e otimização de bancos **SQL** e integrações com serviços externos.
 
-Na **SistemasBR**, atuo no desenvolvimento do **Sigecom** — ERP de gestão comercial que atende empresas com automação de processos, integrações de pagamento e relatórios operacionais. Meu trabalho concentra-se na camada de serviço: regras de negócio, consultas performáticas em Firebird/SQL Server e integrações de meios de pagamento (Pix e middlewares bancários).
+Na **SistemasBR**, atuo no desenvolvimento do **Sigecom**, plataforma de gestão comercial. Meu trabalho envolve regras de negócio, otimização de consultas em bancos relacionais e integração com serviços de pagamento.
 
 - 🔧 **Stack principal:** C#, .NET, Firebird, SQL Server, Firebase
 - 🤖 **Desenvolvimento assistido por IA:** uso diário de Claude Code para revisão, refatoração e automação de fluxos de trabalho
@@ -79,9 +79,9 @@ Na **SistemasBR**, atuo no desenvolvimento do **Sigecom** — ERP de gestão com
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/main/profile-3d-contrib/profile-night-view.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/main/profile-3d-contrib/profile-south-season-animate.svg" />
-    <img alt="Calendário de contribuições em 3D" src="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/main/profile-3d-contrib/profile-south-season-animate.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake.svg" />
+    <img alt="Animação da grade de contribuições do GitHub" src="https://raw.githubusercontent.com/MatheusPupim/MatheusPupim/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 

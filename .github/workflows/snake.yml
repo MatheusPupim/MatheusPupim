@@ -1,10 +1,12 @@
 name: Generate Snake Animation
 
-# Aposentado em favor do gráfico 3D (profile-3d.yml), que rende melhor
-# quando o calendário está preenchido. Mantido como acionamento manual:
-# basta rodar pela aba Actions para regenerar a animação da cobrinha.
 on:
+  schedule:
+    - cron: "0 3 * * *" # todo dia às 03:00 UTC (00:00 BRT)
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -19,14 +21,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Gera a grade bruta uma única vez. As cores não são definidas aqui:
+      # quem controla a paleta é o script de acabamento, que deriva as duas
+      # variantes de tema a partir deste mesmo arquivo.
       - name: Gerar animação da grade de contribuições
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=blue&color_dots=green,red&bg_color=transparent
-            dist/github-contribution-grid-snake-dark.svg?color_snake=blue&color_dots=green,red&bg_color=transparent
+          outputs: dist/snake-bruto.svg
+
+      - name: Aplicar acabamento visual (paleta + palco)
+        run: |
+          python3 scripts/embelezar-snake.py \
+            dist/snake-bruto.svg \
+            dist/github-contribution-grid-snake.svg --tema light
+          python3 scripts/embelezar-snake.py \
+            dist/snake-bruto.svg \
+            dist/github-contribution-grid-snake-dark.svg --tema dark
+          rm dist/snake-bruto.svg
+          ls -la dist/
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
